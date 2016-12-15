@@ -1,7 +1,7 @@
 package com.github.vitalliuss.helloci;
 
 
-import static org.junit.Assert.*;
+import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -13,18 +13,18 @@ public class AppTest {
 
 	@Test
 	public void testShoudBePassed() {
-		assertTrue(true);
+		Assert.assertTrue(true);
 	}
 
 	@Test
 	public void testShoudBePassed_2() {
-		assertTrue(true);
+		Assert.assertTrue(true);
 	}
 
 	@Ignore("Not implemented yet")
 	@Test
 	public void testShouldBeSKipped() {
-		assertTrue(true);
+		Assert.assertTrue(true);
 	}
 	
 	@Test
