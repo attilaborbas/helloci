@@ -13,5 +13,6 @@ public class App
     
     public static void doNothing() {
     	// do nothing
+        // comment
     }
 }
